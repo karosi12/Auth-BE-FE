@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+.authContainer {
+  background: linear-gradient(124.54deg, #615da6 1.46%, #262262 81.18%);
+  /* text-align: center; */
+  padding-top: 100px;
+  height: 120vh;
+}
+
+.formContainer {
+  width: 400px;
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 30px 50px;
+  box-sizing: border-box;
+  /* align-self: center; */
+  box-shadow: 0px 1px 6px rgba(63, 63, 68, 0.15),
+    0px 0px 0px rgba(63, 63, 68, 0.05);
+}
+
+.authFormLabel {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+}
+
+.formTitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 36px;
+  color: #262262;
+}
+
+.authButton {
+  background-color: #db8130 !important;
+  outline: none;
+  width: 100%;
+  color: white;
+}
+
+.authButtonCancel {
+  background-color: #c4c4c4 !important;
+  outline: none;
+  width: 100%;
+  color: white;
+}
+
+.authLogo {
+  margin-bottom: 60px;
+}
+
+.authTextBottom {
+  color: black !important;
+}
+
+.authSuccessTitleText {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 36px;
+  color: #232735;
+}
+
+.authErrorText {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 27px;
+  height: 27px;
+  /* display: flex; */
+  /* align-items: center; */
+  color: #a42525;
+}
+
+@media all and (max-width: 767px) {
+  .formContainer {
+    width: 100%;
+  }
+}
+
+.modal-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  /* Functional Color/Primary_Color */
+
+  color: #413d45;
+}
+
+.modal-header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+/* 
+  display: flex;
+  align-items: center; */
+  letter-spacing: 0.02em;
+
+  /* Functional Color/Primary_Color */
+
+  color: #413d45;
+}
